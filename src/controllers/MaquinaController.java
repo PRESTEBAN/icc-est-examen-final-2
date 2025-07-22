@@ -30,7 +30,7 @@ public class MaquinaController {
     }
 
     public Set<Maquina> ordenarPorSubred(Stack<Maquina> pila){
-        return null;
+         return null;
     }
 
     public Map<Integer, Queue<Maquina>> agruparPorRiesgo(List<Maquina> maquinas) {
