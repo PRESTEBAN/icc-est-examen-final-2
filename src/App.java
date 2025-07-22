@@ -10,6 +10,9 @@ public class App {
     public static void main(String[] args) throws Exception {
         List<Maquina> maquinas = crearMaquinas();
 
+        MaquinaController mq = new MaquinaController();
+        System.out.println(mq.filtrarPorSubred(maquinas, 100));
+
     }
 
     static List<Maquina> crearMaquinas() {
